@@ -6,6 +6,8 @@
   --brand: #458168;
   --brand-light: #8fd0b6;
   --ink: #0b0d0c;
+  --sand: #f3ead8;
+  --ember: #f6b15f;
 }
 
 @theme inline {
@@ -14,6 +16,8 @@
   --color-brand: var(--brand);
   --color-brand-light: var(--brand-light);
   --color-ink: var(--ink);
+  --color-sand: var(--sand);
+  --color-ember: var(--ember);
   --font-sans: Arial, Helvetica, sans-serif;
   --font-mono: "Courier New", monospace;
 }
@@ -38,8 +42,26 @@ a { text-decoration: none; }
 }
 
 .cinematic-title {
+  font-family: "Arial Black", Impact, Arial, Helvetica, sans-serif;
   letter-spacing: 0;
   text-wrap: balance;
+  text-shadow: 0 16px 54px rgba(0, 0, 0, 0.72);
+}
+
+.editorial-kicker {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  letter-spacing: 0;
+}
+
+.hero-wordmark {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.46);
+  color: transparent;
+  opacity: 0.34;
+}
+
+.mobile-safe-hero {
+  min-height: 100svh;
 }
 
 .line-clamp-3 {
@@ -55,3 +77,9 @@ a { text-decoration: none; }
 }
 
 .motion-rise { animation: floatIn 700ms ease both; }
+
+@media (max-width: 767px) {
+  .cinematic-title {
+    text-shadow: 0 10px 34px rgba(0, 0, 0, 0.86);
+  }
+}

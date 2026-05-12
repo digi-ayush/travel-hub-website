@@ -1,4 +1,5 @@
 import { packages } from "./packages";
+export { blogPosts } from "./blogPosts";
 
 export const siteUrl = "https://travel-hub.in";
 
@@ -54,11 +55,4 @@ export const faqs = [
   ["Are flights or visa services available?", "No. We do not sell flights, visa services, cruises or foreign destination packages."],
   ["Which cities do group trips start from?", "Most group departures start from Delhi. Select Himachal batches also allow Chandigarh pickup."],
   ["Are strangers trips safe for solo travelers?", "Yes. Batches are hosted by trip captains, room sharing is managed carefully and travelers receive clear guidance."],
-];
-
-export const blogPosts = [
-  { slug: "manali-group-trip-from-delhi-guide", title: "Manali Group Trip from Delhi: Route, Cost, Best Time and What to Expect", category: "Travel Guides", excerpt: "A practical guide for Delhi NCR travelers planning a hosted Manali Kasol group departure.", image: "/photos/manali3.jpg", minutes: "7 min read" },
-  { slug: "kedarnath-tour-package-packing-list", title: "Kedarnath Tour Package Packing List for First-Time Trekkers", category: "Packing Tips", excerpt: "Shoes, rain layers, medicines, ID documents and realistic trek essentials for Kedarnath.", image: "/photos/kedarnath2.jpg", minutes: "6 min read" },
-  { slug: "best-weekend-getaways-from-delhi", title: "Best Weekend Getaways from Delhi for Groups, Couples and Solo Travelers", category: "Weekend Travel Ideas", excerpt: "Compare Chopta, Jibhi, Jaipur Pushkar and Manali for budget, travel time and vibe.", image: "/trips/weekend-trip.jpg", minutes: "8 min read" },
-  { slug: "rajasthan-weekend-trip-budget-guide", title: "Rajasthan Weekend Trips: Budget Guide for Jaipur, Pushkar and Udaipur", category: "Budget Guides", excerpt: "A clean cost breakdown for Delhi travelers planning short Rajasthan group or couple packages.", image: "/photos/udaipur.png", minutes: "5 min read" },
 ];

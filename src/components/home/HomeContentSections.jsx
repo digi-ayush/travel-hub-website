@@ -55,7 +55,7 @@ export default function HomeContentSections() {
         <div className="mx-auto max-w-7xl">
           <SectionHeader eyebrow="Blog" title="SEO travel guides for smarter short trips." />
           <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
-            {blogPosts.map((post) => <Link key={post.slug} href="/blog" className="rounded-3xl border border-white/10 bg-white/[0.05] p-5"><p className="text-xs font-black uppercase tracking-[0.18em] text-brand-light">{post.category}</p><h3 className="mt-3 text-xl font-black">{post.title}</h3><p className="mt-3 text-sm leading-6 text-white/60">{post.excerpt}</p></Link>)}
+            {blogPosts.map((post) => <Link key={post.slug} href={`/blog/${post.slug}`} className="rounded-3xl border border-white/10 bg-white/[0.05] p-5"><p className="text-xs font-black uppercase tracking-[0.18em] text-brand-light">{post.category}</p><h3 className="mt-3 text-xl font-black">{post.title}</h3><p className="mt-3 text-sm leading-6 text-white/60">{post.excerpt}</p></Link>)}
           </div>
         </div>
       </section>

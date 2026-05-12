@@ -1,5 +1,7 @@
 import "./globals.css";
 import Navbar from "@/components/common/Navbar";
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata = {
   metadataBase: new URL("https://travel-hub.in"),
@@ -69,6 +71,8 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
       </body>
+      <Analytics/>
+      <SpeedInsights/>
     </html>
   );
 }

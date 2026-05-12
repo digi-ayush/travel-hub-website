@@ -9,6 +9,7 @@ export default function Navbar() {
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-black/45 text-white backdrop-blur-xl">
+      
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 md:h-20 md:px-8 lg:px-10">
         <Link href="/" className="flex items-center gap-3">
           <span className="grid h-9 w-9 place-items-center rounded-full bg-brand text-xs font-black shadow-lg shadow-brand/25 md:h-10 md:w-10 md:text-sm">TH</span>

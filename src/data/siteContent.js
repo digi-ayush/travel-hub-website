@@ -8,6 +8,7 @@ export const navLinks = [
   { label: "Weekend", href: "/weekend-getaways" },
   { label: "Corporate", href: "/corporate-trips" },
   { label: "Couples", href: "/couple-packages" },
+  { label: "Hotels", href: "/hotels" },
   { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact-us" },
 ];

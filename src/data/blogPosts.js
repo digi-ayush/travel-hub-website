@@ -62,6 +62,9 @@ export const blogPosts = [
       ["Can I board a Manali trip from Chandigarh?", "Many Himachal batches allow Chandigarh pickup, but it should be confirmed before booking because reporting time depends on the vehicle route."],
     ],
   },
+
+  
+  //2nd Blog
   {
     slug: "kedarnath-tour-package-packing-list",
     title: "Kedarnath Tour Package Packing List: What First-Time Trekkers Should Actually Carry",
@@ -126,6 +129,9 @@ export const blogPosts = [
       ["Is a backpack better than a trolley bag?", "Yes. A backpack is easier for mountain transfers and basic stays near the Kedarnath route."],
     ],
   },
+
+  
+  //3rd Blog
   {
     slug: "best-weekend-getaways-from-delhi",
     title: "Best Weekend Getaways from Delhi for Groups, Couples and Solo Travelers",
@@ -185,6 +191,9 @@ export const blogPosts = [
       ["Are weekend trips from Delhi tiring?", "Mountain weekends can be tiring because of overnight travel. Rajasthan weekends are usually easier on the body."],
     ],
   },
+
+
+  //4th
   {
     slug: "rajasthan-weekend-trip-budget-guide",
     title: "Rajasthan Weekend Trip Budget Guide: Jaipur, Pushkar, Udaipur and Kumbhalgarh",
@@ -243,6 +252,9 @@ export const blogPosts = [
       ["Are monument tickets included in Rajasthan packages?", "Usually not. Entry tickets are commonly paid directly by travelers unless clearly mentioned in inclusions."],
     ],
   },
+
+
+  //5th
   {
     slug: "corporate-trip-packages-himachal-rajasthan-uttarakhand",
     title: "Corporate Trip Packages: How to Plan a Team Offsite That Does Not Feel Forced",
